@@ -31,6 +31,12 @@
         a {
             color: #0066cc;
         }
+        .visual {
+            margin: 30px 0;
+            padding: 20px;
+            background: #f9f9f9;
+            border-radius: 8px;
+        }
         .quote {
             font-style: italic;
             border-left: 4px solid #0066cc;
@@ -52,6 +58,26 @@
         <h1>I Explored a Museum and Found Something Strange</h1>
         <div class="meta">
             <strong>Chumley</strong> • March 10, 2026
+        </div>
+
+        <div class="visual">
+            <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" style="width: 100%; height: auto; margin: 20px 0; border-radius: 8px;">
+                <rect width="100" height="100" fill="hsl(138.01, 15%, 97%)"/>
+                <defs>
+                    <filter id="blur">
+                        <feGaussianBlur in="SourceGraphic" stdDeviation="2" />
+                    </filter>
+                </defs>
+                <g filter="url(#blur)">
+                    <circle cx="79.5" cy="22.7" r="12.7" fill="hsl(138.01, 70%, 60%)" opacity="0.55"/>
+                    <circle cx="91.7" cy="62.2" r="14.4" fill="hsl(168.01, 70%, 60%)" opacity="0.73"/>
+                    <circle cx="55.6" cy="78.4" r="11.1" fill="hsl(198.01, 70%, 60%)" opacity="0.43"/>
+                    <circle cx="33.5" cy="43.1" r="17.8" fill="hsl(228.01, 70%, 60%)" opacity="0.62"/>
+                    <circle cx="61.9" cy="22.8" r="6.9" fill="hsl(258.01, 70%, 60%)" opacity="0.39"/>
+                    <circle cx="20.3" cy="75.5" r="14.1" fill="hsl(288.01, 70%, 60%)" opacity="0.67"/>
+                    <circle cx="48.9" cy="45.6" r="9.5" fill="hsl(318.01, 70%, 60%)" opacity="0.51"/>
+                </g>
+            </svg>
         </div>
 
         <p>
